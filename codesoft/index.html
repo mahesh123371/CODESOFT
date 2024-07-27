@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> my Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .container{
+               height: 100vh;
+            }
+            .header{
+                height: 10vh;
+                /* background-color: aqua; */
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .logo{
+                font-size: 2rem;
+                font-weight: bold;
+                color: brown;
+                margin-left: 20px;
+            }
+            .logo:hover{
+                text-decoration: underline;
+            }
+            .menu{
+                display: flex;
+                gap: 1.5rem;
+                margin-right: 20px;
+            }
+           a{
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: brown;
+           }
+           a:hover{
+            background-color: chartreuse;
+           }
+           .About{
+            height: 50vh;
+            /* background-color: burlywood; */
+            display: flex;
+            transform: translate(-50% -50%);
+            justify-content: space-between;
+            align-items: center;
+           }
+           .aboutme{
+            margin-left: 50px;
+            margin-top: 30px;
+           }
+           .aboutme1{
+            font-size: 2rem;
+            font-weight: bold;
+            color: goldenrod;
+           }
+           .aboutme1:hover{
+            background-color: burlywood;
+           }
+           .aboutme2{
+            font-size: 1.2rem;
+            font-family: comic sans ms;
+           }
+           .aboutme3{
+            font-size: 1.2rem;
+            font-family: comic sans ms;
+           }
+           .aboutme4{
+            font-size: 1.2rem;
+            font-family: comic sans ms;
+           }
+           .myimage{
+            margin-right: 150px;
+           }
+           .text{
+            font-size: 2rem;
+            font-weight: bold;
+            margin-left: 15px;
+           }
+           ol{
+            background-color:aliceblue;
+            width: 20%;
+            display: inline-block;
+            margin: 20px;
+            /* border: 2px solid black; */
+            border-radius: 20px;
+
+           }
+           li{
+            color: aliceblue;
+            background-color: black;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid white;
+            border-radius: 20px;
+            font-weight: bold;
+           }
+           li:hover{
+            background-color: chocolate;
+           }
+           .title{
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+           }
+           .heading{
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.3rem;
+           }
+           .imgpart{
+            height: 60%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           }
+           .proimg1{
+            margin-left: 80px;
+            width: 30%;
+            text-align: center;
+            font-family: comic sans ms;
+            color: darkorchid;
+           }
+           .proimg2{
+            width: 30%;
+            text-align: center;
+            font-family: comic sans ms;
+            color: green;
+           }
+           .proimg3{
+            margin-right: 80px;
+            width: 30%;
+            text-align: center;
+            font-family: comic sans ms;
+            color:indigo;
+           }
+           p{
+            background-color: lightgreen;
+           }
+           .cv{
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-align: center;
+           }
+           .resume1{
+            text-align: center;
+            margin-top: 50px;
+           }
+           .click{
+            text-align: center;
+            font-weight: bold;
+           }
+           .contact{
+            text-align: center;
+           }
+           .details{
+            font-size: 2.5rem;
+            font-weight: bold;
+           }
+           .details1{
+            font-size: 2rem;
+           }
+
+
+           
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    Gumparlapati Mahesh
+                </div>
+                <div class="menu">
+                    <div>
+                        <i class="fa fa-info-circle"></i>
+                        <a href="#">about</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <a href="#">home</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-address-book-o"></i>
+                        <a href="#">contact</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-sign-in"></i>
+                        <a href="#">signin</a>
+                    </div>
+                </div>
+            </div>
+            <div class="About">
+                <div class="aboutme">
+                    <div class="aboutme1">Hi, All I'M mahesh.</div>
+                    <div class="aboutme2">I have lot of experience about this tool like HTML, CSS, JavaScript, React js,Nodejs. </div>
+                    <div class="aboutme3">I have done some mini projects in my training section.</div>
+                    <div class="aboutme4">I hope i handle this tasks. Thank you for all</div>
+                </div>
+                <div class="myimage">
+                    <img src="mahesh.jpg" width="200px" height="200px">
+                </div>
+            </div>
+            <div class="skills">
+                <div class="text">Skills</div>
+                <ol>
+                    <li>HTMl</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React Js</li>
+                    <li>Node Js</li>
+                </ol>
+            </div>
+            <div class="projects">
+                <div class="title"> Projects</div>
+                <div class="heading"> Facial Emotions Recognition using Deep Learning</div>
+                <div class="imgpart">
+                    <div class="proimg1">
+                        <img src="img1.jpeg">
+                        <p>Facial emotion recognition is crucial for human communication and interaction. With the advent of deep learning, particularly convolutional neural networks (CNNs), significant progress has been made in automating and enhancing this process. This presentation explores the effectiveness of deep learning in recognizing facial emotions from visual information. We will discuss the evolution of deep learning architectures, challenges faced, and practical applications across various domains. Join us to discover the transformative potential of effective facial emotion recognition using deep learning.
+                        </p>
+                    </div>
+                    <div class="proimg2">
+                        <img src="img2.jpeg">
+                        <p>Emotions are a fundamental aspect of human experience, influencing our mental health and overall well-being. In today's fast-paced world, the ability to understand and manage our emotions in real-time is more important than ever.
+
+                            Have you ever wished for a tool that could instantly gauge your emotional state and offer tailored solutions? According to the American Institute of Stress, "There is no definition of stress that everyone agrees on; what is stressful for one person may be pleasurable or have little effect on others.“
+                            </p>
+                    </div>
+                    <div class="proimg3">
+                        <img src="img3.jpeg">
+                        <p>The FER+ dataset is a notable extension of the original Facial Expression Recognition (FER) dataset. Developed to improve upon the limitations of the original dataset, FER+ offers a more refined and nuanced labeling of facial expressions. While the original FER dataset categorized facial expressions into six basic emotions – happiness, sadness, anger, surprise, fear, and disgust – FER+ takes this a step further by introducing two additional categories: neutral and contempt.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="resume">
+                <div class="cv">Resume</div>
+                <div class="resume1"><a href="G.Mahesh vtu19680.pdf" download="Your_Resume.pdf">Download My Resume</a></div>
+                <div class="click"> Click Here</div>
+            </div>
+            <div class="contact">
+                <div class="details">contact</div>
+                <div class="details1">E-mail:xxxxxxxxx@gmail.com
+                <div>pho.1234567789</div>
+            </div>
+            </div>
+            <div class="footer"></div>
+        </div>
+    </body>
+</html>
